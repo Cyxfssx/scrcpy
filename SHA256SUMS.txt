@@ -1,0 +1,2 @@
+ccbe0f900bdd70132f32193a0d74c78bca8ff03477b15b1d109a83116918a1f2  scrcpy-sogou-win64.zip
+5c05c9e80fb249ebdde29c40d0c3b4828d86cfd9d56a79558506c8fb1fec4bb8  scrcpy-sogou-source.zip
