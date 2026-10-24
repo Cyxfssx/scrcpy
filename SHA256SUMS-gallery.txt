@@ -1,0 +1,2 @@
+25046b2e89e27cdb91bc1467fac9cd956055a72ce9109c312aa40a18af45e826  scrcpy-sogou-gallery-win64.zip
+07fd931adf82f71aee459622ae3beb133a2246a745f4c3b313708bd4ad421fc3  scrcpy-sogou-gallery-source.zip
