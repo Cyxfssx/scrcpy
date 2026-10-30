@@ -1,0 +1,2 @@
+0e95d70b4d5ce8304a311f8c0d229cb7a20351ebd916bc5b2968215c2d3af045  warm-screen-win64.zip
+c89c285a2049d57f551b0edcb9b1b2e8e66a27158335bc5f24b443dfd00c2241  warm-screen-source.zip
