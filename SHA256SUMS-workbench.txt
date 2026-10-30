@@ -1,0 +1,2 @@
+6e90bb54ce6391b6f630b5a5233970418abd77299850caa8c815d86126a90125  scrcpy-sogou-workbench-win64.zip
+c04fa8eacb6e449185bdb8a6cc0db2cc3637d6956f55fa5d91c42c1661bdb5dd  scrcpy-sogou-workbench-source.zip
