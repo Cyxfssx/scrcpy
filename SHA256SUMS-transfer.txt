@@ -1,0 +1,2 @@
+c4649fa1ff7e99decbc5552e9050471109ba55c119c0bf01b0c211359a27d54b  warm-screen-transfer-win64.zip
+9fe838ae62001f8513e5a7ff53ff63a70a5e431b4a36df4c82e48a1290604de3  warm-screen-transfer-source.zip
