@@ -1,0 +1,3 @@
+be7590043ddfc65a794d73d242ef8a144442263d3e899f44368f31e6935e8e4a  warm-ime-0.1.0-preview.apk
+c7648a592dedcdc7f2b6448bf21a23b7df2d5d6fabd31e30e99932a7b322133c  warm-ime-bridge-update.zip
+af7533b78e655138fe34b8ddfffa2efe1fdeeed92fb1706480fb1fa6b46cdb04  warm-ime-source.zip
