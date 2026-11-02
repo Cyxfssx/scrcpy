@@ -1,0 +1,2 @@
+ad365b8f2482ebfe22691834f9727a8e1f7db6ede9d402f0866599255484acfa  warm-screen-classic-bridge-win64.zip
+c27f19fed6cb044486491949ba02c277010bdcb6b4213f42a210a24f925db60e  warm-screen-classic-bridge-source.zip
