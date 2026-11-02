@@ -1,0 +1,2 @@
+90d782cae420b1cddf75a0d6a0a26808235fda654ab6c683454e43ee1da16725  warm-ime-0.1.1-preview.apk
+d8448321642036ba96c0b30e93374bcfb78fc0c61d8dcf2f435bbf9289bc4a83  warm-ime-0.1.1-source.zip
