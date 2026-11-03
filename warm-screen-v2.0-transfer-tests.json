@@ -1,0 +1,218 @@
+{
+  "files": [
+    {
+      "serial": "phone-A",
+      "path": "/sdcard/Download/温暖投屏/42/中文 `x$(no)'name.png",
+      "bytes": 150000,
+      "sha256": "1f0ad70b27d5ad1e46586c979442b86474a7dc07e2c6715a6fea9edb60c79cd9"
+    },
+    {
+      "serial": "phone-A",
+      "path": "/sdcard/Download/温暖投屏/42/2-中文 `x$(no)'name.png",
+      "bytes": 333,
+      "sha256": "43493f5611067e52a47859bbfe0c165c5f98f600067cb20468b40de83e56a0dc"
+    },
+    {
+      "serial": "phone-B",
+      "path": "/sdcard/Documents/温暖投屏/43/资料.pdf",
+      "bytes": 1000000,
+      "sha256": "de551ff7069363b1beabaac22ac4d85d2341882537482bbba29185c34188d364"
+    },
+    {
+      "serial": "phone-A",
+      "path": "/sdcard/Download/温暖投屏/44/empty.apk",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "serial": "phone-A",
+      "path": "/sdcard/Pictures/温暖投屏/48/中文 `x$(no)'name.png",
+      "bytes": 150000,
+      "sha256": "1f0ad70b27d5ad1e46586c979442b86474a7dc07e2c6715a6fea9edb60c79cd9"
+    },
+    {
+      "serial": "media-fail",
+      "path": "/sdcard/Download/温暖投屏/49/中文 `x$(no)'name.png",
+      "bytes": 150000,
+      "sha256": "1f0ad70b27d5ad1e46586c979442b86474a7dc07e2c6715a6fea9edb60c79cd9"
+    },
+    {
+      "serial": "pause-phone",
+      "path": "/sdcard/Download/温暖投屏/53/large.bin",
+      "bytes": 8000000,
+      "sha256": "62b9b04c3a7a1cf4fd12b7b21a7c4055429d3e32e0839866bdc8712210f4b4ba"
+    },
+    {
+      "serial": "phone-A",
+      "path": "/sdcard/Download/温暖投屏/55/中文 `x$(no)'name.png",
+      "bytes": 150000,
+      "sha256": "1f0ad70b27d5ad1e46586c979442b86474a7dc07e2c6715a6fea9edb60c79cd9"
+    }
+  ],
+  "commands": [
+    [
+      "phone-A",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Download/温暖投屏/42/中文 `x$(no)'name.png",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Download/温暖投屏/42/中文 `x$(no)'name.png.warm-part-1",
+        "/sdcard/Download/温暖投屏/42/中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "phone-A",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Download/温暖投屏/42/2-中文 `x$(no)'name.png",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Download/温暖投屏/42/2-中文 `x$(no)'name.png.warm-part-2",
+        "/sdcard/Download/温暖投屏/42/2-中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "phone-B",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Documents/温暖投屏/43/资料.pdf",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Documents/温暖投屏/43/资料.pdf.warm-part-3",
+        "/sdcard/Documents/温暖投屏/43/资料.pdf"
+      ]
+    ],
+    [
+      "phone-A",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Download/温暖投屏/44/empty.apk",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Download/温暖投屏/44/empty.apk.warm-part-4",
+        "/sdcard/Download/温暖投屏/44/empty.apk"
+      ]
+    ],
+    [
+      "slow",
+      [
+        "rm",
+        "-f",
+        "/sdcard/Download/温暖投屏/46/large.bin.warm-part-6"
+      ]
+    ],
+    [
+      "phone-A",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Pictures/温暖投屏/48/中文 `x$(no)'name.png",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Pictures/温暖投屏/48/中文 `x$(no)'name.png.warm-part-8",
+        "/sdcard/Pictures/温暖投屏/48/中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "phone-A",
+      [
+        "CLASSPATH=/data/local/tmp/warm-transfer-scanner-v7.jar",
+        "app_process",
+        "/",
+        "com.genymobile.scrcpy.TransferScanner",
+        "/sdcard/Pictures/温暖投屏/48/中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "media-fail",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Download/温暖投屏/49/中文 `x$(no)'name.png",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Download/温暖投屏/49/中文 `x$(no)'name.png.warm-part-9",
+        "/sdcard/Download/温暖投屏/49/中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "media-fail",
+      [
+        "CLASSPATH=/data/local/tmp/warm-transfer-scanner-v7.jar",
+        "app_process",
+        "/",
+        "com.genymobile.scrcpy.TransferScanner",
+        "/sdcard/Download/温暖投屏/49/中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "disconnect",
+      [
+        "rm",
+        "-f",
+        "/sdcard/Download/温暖投屏/50/资料.pdf.warm-part-10"
+      ]
+    ],
+    [
+      "pause-phone",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Download/温暖投屏/53/large.bin",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Download/温暖投屏/53/large.bin.warm-part-11",
+        "/sdcard/Download/温暖投屏/53/large.bin"
+      ]
+    ],
+    [
+      "phone-A",
+      [
+        "[",
+        "!",
+        "-e",
+        "/sdcard/Download/温暖投屏/55/中文 `x$(no)'name.png",
+        "]",
+        "&&",
+        "mv",
+        "/sdcard/Download/温暖投屏/55/中文 `x$(no)'name.png.warm-part-13",
+        "/sdcard/Download/温暖投屏/55/中文 `x$(no)'name.png"
+      ]
+    ],
+    [
+      "pause-cancel",
+      [
+        "rm",
+        "-f",
+        "/sdcard/Download/温暖投屏/56/large.bin.warm-part-14"
+      ]
+    ],
+    [
+      "slow",
+      [
+        "rm",
+        "-f",
+        "/sdcard/Download/温暖投屏/57/large.bin.warm-part-15"
+      ]
+    ]
+  ]
+}

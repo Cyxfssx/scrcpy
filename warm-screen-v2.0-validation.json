@@ -1,0 +1,52 @@
+{
+  "backup": "/workspace/backups/warm-v2-pre-20261103",
+  "backup_sha256": "2252d80ff14fadbad96de8117c40fc24133ba76a2ce7b791ea6476b73d81111b",
+  "protected_source_count": 368,
+  "unchanged_binary_files": [
+    "engine/AdbWinApi.dll",
+    "engine/AdbWinUsbApi.dll",
+    "engine/LICENSE.txt",
+    "engine/LICENSES/FFmpeg-LGPLv2.1.txt",
+    "engine/LICENSES/SDL.txt",
+    "engine/LICENSES/libusb.txt",
+    "engine/SDL3.dll",
+    "engine/adb.exe",
+    "engine/avcodec-63.dll",
+    "engine/avformat-63.dll",
+    "engine/avutil-61.dll",
+    "engine/disconnected.png",
+    "engine/libusb-1.0.dll",
+    "engine/open_a_terminal_here.bat",
+    "engine/scrcpy-noconsole.vbs",
+    "engine/scrcpy-server",
+    "engine/scrcpy.exe",
+    "engine/scrcpy.png",
+    "engine/swresample-7.dll",
+    "engine/warm-clipboard-scanner",
+    "engine/warm-transfer-scanner",
+    "modules/ClipboardBridge.exe"
+  ],
+  "argument_generation_unchanged": true,
+  "ui_dpi": [
+    96,
+    120,
+    144,
+    192
+  ],
+  "real_device_connected": false,
+  "native_windows_hardware_acceptance": "pending",
+  "wine_original_adb32": "unsupported in this cloud prefix",
+  "transfer_report": "v2-transfer-final-report.json",
+  "packages": [
+    {
+      "name": "warm-screen-v2.0-win64.zip",
+      "size": 11325607,
+      "sha256": "efb07af26ae96d621ddc360c3a3d196542ee8c39236bdf17a7ef2cbef28c0511"
+    },
+    {
+      "name": "warm-screen-v2.0-source.zip",
+      "size": 37082281,
+      "sha256": "a555ec354739819a39583e2a8bc4f168b9c038f0bb6b49ffb8921a4dd5e92a68"
+    }
+  ]
+}
